@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './featuredBlogs.module.css'
-import mountainImg1 from '../../assets/mountain1.jpg'
-import mountainImg2 from '../../assets/mountain2.jpg'
+import mountain1 from '../../assets/mountain1.jpg'
+import mountain2 from '../../assets/mountain2.jpg'
 import { MdOutlinePreview } from 'react-icons/md'
 import { AiFillLike } from 'react-icons/ai'
 
@@ -13,7 +13,7 @@ const FeaturedBlogs = () => {
         <div className={classes.blogs}>
           <div className={classes.left}>
             <div className={classes.mainBlog}>
-              <img src={mountainImg1} alt="" />
+              <img src={mountain1} alt="" />
               <div className={classes.mainBlogData}>
                 <div className={classes.categoryAndMetadata}>
                   <span className={classes.category}>Nature</span>
@@ -37,7 +37,7 @@ const FeaturedBlogs = () => {
           </div>
           <div className={classes.right}>
             <div className={classes.secondaryBlog}>
-              <img src={mountainImg2} alt="" />
+              <img src={mountain2} alt="" />
               <div className={classes.secondaryBlogData}>
                 <h4>Blog 2 title</h4>
                 <p className={classes.desc}>
@@ -50,7 +50,7 @@ const FeaturedBlogs = () => {
               </div>
             </div>
             <div className={classes.secondaryBlog}>
-              <img src={mountainImg2} alt="" />
+              <img src={mountain2} alt="" />
               <div className={classes.secondaryBlogData}>
                 <h4>Blog 3 title</h4>
                 <p className={classes.desc}>

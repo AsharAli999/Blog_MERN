@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './navbar.module.css'
 import { Link } from 'react-router-dom'
-import womanImg from '../../assets/woman.jpg'
+import woman from '../../assets/woman.jpg'
 import { useState } from 'react'
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
           <li className={classes.listItem}>Categories</li>
         </ul>
         <div className={classes.right}>
-          <img onClick={() => setShowModal(prev => !prev)} src={womanImg} className={classes.img} />
+          <img onClick={() => setShowModal(prev => !prev)} src={woman} className={classes.img} />
           {showModal &&
             <div className={classes.modal}>
               <Link to='/create'>Create</Link>
